@@ -14,28 +14,24 @@
 
 ## Description:
   该示例实现了以下功能：
-* 利用 PICO 体感追踪器，获取身体跟踪数据驱动 24 个关节节点
-* 使用右摇杆移动整个身体
+* 利用 PICO 身体跟踪数据驱动虚拟角色
+* 踩踏产生烟花粒子
+* 实现踩地鼠游戏
 * 自定义身体姿势识别 
+* 使用手柄右摇杆移动身体
 
-|示例场景|自定义身体姿势识别|
+|利用 PICO 身体跟踪数据驱动虚拟角色|踩踏产生烟花粒子|
 |:-:|:-:|
-| <img src="./ReadMeScreenshot/1-1.jpg" width="300"> | <img src="./ReadMeScreenshot/1-2.jpg" width="300"> |
-<!--
-* Long-distance grabbing by pressing and holdindg the left controller X, Y key
-* Gun shoot by pressing trigger button
-* Vibration feedback
-* Sound effect when grabbing
-|Sample Scene|Display the hello text|
+| <img src="./ReadMeScreenshot/1-1.gif" width="300"> | <img src="./ReadMeScreenshot/1-2.gif" width="300"> |
+
+|实现踩地鼠游戏|自定义身体姿势识别|
 |:-:|:-:|
-| <img src="./ReadMeScreenshot/1-1.jpg" width="300"> | <img src="./ReadMeScreenshot/1-2.jpg" width="300"> |
-|Gun shoot|Sample Scene|
-|:-:|:-:|
-| <img src="./ReadMeScreenshot/1-3.jpg" width="300"> | <img src="./ReadMeScreenshot/1-4.jpg" width="300"> 
-|ray cast|Long-distance grabbing|
+| <img src="./ReadMeScreenshot/1-3.gif" width="300"> | <img src="./ReadMeScreenshot/1-4.gif" width="300"> |
+
+|示例场景|使用手柄右摇杆移动身体|
 |:-:|:-:|
 | <img src="./ReadMeScreenshot/1-5.jpg" width="300"> | <img src="./ReadMeScreenshot/1-6.jpg" width="300"> |
--->
+
 ## Note:
 <!--- This project integrates Pico Unreal Integration SDK 3.1.0 plugin for UE 5.3. If you are using other version Unreal engine, you will need to integrate the corresponding UE version plugin at [here.](https://developer.picoxr.com/zh/resources/#sdk)-->
 - 本项目集成了用于 UE 5.3 的 Pico Unreal Integration SDK 3.1.0 插件。如果您使用的是其他版本的虚幻引擎，则需要在[此处](https://developer.picoxr.com/zh/resources/#sdk)集成相应的 UE 版本插件。
