@@ -1,17 +1,20 @@
 {
 	"FileVersion": 3,
-	"EngineAssociation": "5.3",
+	"EngineAssociation": "5.5",
 	"Category": "",
 	"Description": "",
+	"Modules": [
+		{
+			"Name": "BodyTrackingDemo",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	],
 	"Plugins": [
 		{
-			"Name": "PICOXR",
+			"Name": "OnlineSubsystemPico",
 			"Enabled": true,
-			"MarketplaceURL": "https://publish.unrealengine.com/v3/edit-product/7932d7fc2aad4216b1b01644950f6fcc",
-			"SupportedTargetPlatforms": [
-				"Win64",
-				"Android"
-			]
+			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/product/6b674b5eed7343eda5d3f2ab8030b50f"
 		},
 		{
 			"Name": "PICOEnterprise",
@@ -22,9 +25,27 @@
 			]
 		},
 		{
-			"Name": "OnlineSubsystemPico",
+			"Name": "PICOOpenXR",
+			"Enabled": false,
+			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/product/2debc028cd90414f97f308c74a3d6a32",
+			"SupportedTargetPlatforms": [
+				"Win64",
+				"Linux",
+				"Android"
+			]
+		},
+		{
+			"Name": "PICOXR",
 			"Enabled": true,
-			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/product/6b674b5eed7343eda5d3f2ab8030b50f"
+			"MarketplaceURL": "https://publish.unrealengine.com/v3/edit-product/7932d7fc2aad4216b1b01644950f6fcc",
+			"SupportedTargetPlatforms": [
+				"Win64",
+				"Android"
+			]
+		},
+		{
+			"Name": "PICOLivePreview",
+			"Enabled": true
 		}
 	],
 	"TargetPlatforms": [

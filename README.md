@@ -1,16 +1,14 @@
-English | [中文README](README.zh_CN.md)
+English | [中文README](README.zh_CN.md)  
 
 # PICO Unreal Body Tracking Sample
 
 
 - If you have any questions/comments, please visit [**PICO Developer Support Portal**](https://picodevsupport.freshdesk.com/support/home) and raise your question there.
-
-- This sample does not include the PICO Unreal Integration SDK 3.1.0 plugin; please download it from [**PICO Unreal Integration SDK 3.1.0 plugin**](https://developer.picoxr.com/resources/).
-
+ 
 ## Unreal Engine 5 & SDK Version
-- Unreal Engine : 5.3.2
+- Unreal Engine : 5.5.4
 
-- PICO Unreal Integration SDK v3.1.0
+- PICO Unreal Integration SDK v3.2.0  
 
 
 ## Description:
@@ -28,7 +26,7 @@ The sample implements functions as below:
 
 |Implementation of the Mole Game|Custom body gesture recognition|
 |:-:|:-:|
-| <img src="./ReadMeScreenshot/1-3.gif" width="300"> | <img src="./ReadMeScreenshot/1-4.gif" width="300"> |
+| <img src="./ReadMeScreenshot/1-3.gif" width="300"> | <img src="./ReadMeScreenshot/1-4.gif" width="300"> |  
 
 |Sample Scene|Move the whole body by using right joystick|
 |:-:|:-:|
@@ -36,4 +34,4 @@ The sample implements functions as below:
 
 
 ## Note:
-- This project integrates PICO Unreal Integration SDK 3.1.0 plugin for UE 5.3. If you are using other version Unreal engine, you will need to integrate the corresponding UE version plugin at [here.](https://developer.picoxr.com/resources/#sdk)
+- This project integrates PICO Unreal Integration SDK 3.2.0 plugin for UE 5.5. If you are using other version Unreal engine, you will need to integrate the corresponding UE version plugin at [here.](https://developer.picoxr.com/resources/#sdk)  
